@@ -1,9 +1,5 @@
-# story stack
+# Why I love the Web
 
-This is a simple story template created using [stack.js](https://github.com/mbostock/stack).
+Simple slide deck about why I love the Web for UOHack (12/2/14).
 
-![screenshot](https://github.com/rgpages/story-stack/blob/gh-pages/default.png)
-
-**[DEMO](http://pages.registerguard.com/story-stack/)**
-
-[Real world example](http://pages.registerguard.com/Eaton/).
+[Stack.js](https://github.com/mbostock/stack) by Mike Bostock.
