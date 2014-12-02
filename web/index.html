@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<title>Why I love the Web | Rob Denton</title>
+	
+	<meta name="description" content="Presentation on how to build your first site.">
+	<meta name="keywords" content="rob, denton, first, site">
+	
+	<link rel="stylesheet" href="styles.css">
+	
+	<style>
+
+		body{
+			/*background-color:#000;*/
+			color:white;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: 100;
+		}
+
+		a:link { color: #64c9ff; text-decoration: none; }
+
+		a:visited { color: #00517e; text-decoration: none; }
+
+		a:hover { color: #ca4700; text-decoration: underline; }
+
+		a:active { color: #ca4700; text-decoration: underline; }
+
+		section{
+			background-color:#000;
+			padding:2em;
+		}
+
+	</style>
+	
+</head>
+<body>
+	<!-- ONE -->
+	<!-- headline -->
+	<section id="run_head">
+		<h1>Why I love the Web.</h1>
+		<p>Rob Denton</p>
+	</section>
+	
+	<!-- TWO -->
+	<!-- text -->
+	<section>
+		<p style="font-size:2em;">But real quick...</p>
+		<p>Hi, I'm Rob.</p>
+		<p>Now: <a href="http://registerguard.com">The Register-Guard</a></p>
+		<p>Formerly: CU-Boulder, <a href="http://cuindependent.com">CU Independent</a>, <a href="http://shfwire.com/reporters/rob-denton/">blah</a>, <a href="http://inaugblog.com/about.html">blah</a>, <a href="http://clarkson-creative.com">blah</a>.</p>
+	</section>
+	
+	<!-- THREE -->
+	<!-- img -->
+	<section>
+		<p style="font-size:3em;">Ok, back to the Web.</h1>
+	</section>
+	
+	<!-- FOUR -->
+	<!-- img w/ text -->
+	<section style="background:white;color:black">
+		<p style="font-size:1.5em;text-align:center;font-weight:100;letter-spacing:.25em;padding-top:3em;">STORYTELLING</p>
+	</section>
+	
+	<!-- FIVE -->
+	<!-- img w/ text -->
+	<section style="text-align:center">
+		<a href="http://extras.denverpost.com/everythingmatters/"><img src="media/adams.gif" style="width:80%;"></a>
+	</section>
+	
+	<!-- SIX -->
+	<!-- img w/ text -->
+	<section style="text-align:center">
+		<a href="http://www.nytimes.com/2014/08/20/upshot/data-on-transfer-of-military-gear-to-police-departments.html"><img src="media/upshot.png" style="width:80%;"></a>
+	</section>
+	
+	<!-- SEVEN -->
+	<!-- img -->
+	<section style="text-align:center">
+		<a href="http://www.bostonglobe.com/metro/massachusetts/2014/11/30/boston-young-adults-are-influential-and-often-burdened/kp2Oek4nIcMrTtehgDnl1M/story.html"><img src="media/boston.png" style="width:30%;"></a>
+	</section>
+	
+	<!-- EIGHT -->
+	<!-- video embed -->
+	<section style="text-align:center">
+		<a href="http://24hoursofhappy.com/"><img src="media/happy.png" style="width:80%;"></a>
+	</section>
+	
+	<!-- NINE -->
+	<!-- map embed -->
+	<section style="text-align:center">
+		<a href="https://www.youtube.com/user/HondaVideo"><img src="media/honda.gif" style="width:80%;"></a>
+	</section>
+	
+	<section>
+		<p>Any other examples?</p>
+		<p>Other questions?</p>
+	</section>
+	
+	
+	<script src="d3stack/d3.v3.min.js"></script>
+	<script src="d3stack/stack.v1.js"></script>
+	
+	<script>
+	
+		// stack
+		
+		var mystack = stack()
+			.on('activate', activate)
+			.on('deactivate', deactivate);
+	
+	</script>
+	
+</body>
+</html>
